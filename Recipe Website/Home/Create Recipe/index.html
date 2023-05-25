@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <div class="sidenav" id="sidenav">
+        <a href="C:\Users\1687158\Desktop\Recipe Website\Home\home.html">Home</a>
+        <a href="#">All Recipes</a>
+        <a href="#">Breakfast</a>
+        <a href="#">Lunch</a>
+        <a href="#">Dinner</a>
+        <a href="#">Desserts</a>
+        <a href="#">Drinks</a>
+        <a href="#">Favorites</a>
+        <a href="Create Recipe/index.html">Create Recipe</a>
+        <a href="#">My Profile</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <button class="toggle-btn" id="toggle-btn" onclick="toggleNav()">&#9776;</button>
+    </div>
+    <div class="container">
+      <h1><center>Create Recipe</center></h1>
+
+      <form class="create-recipe-form" onsubmit="saveRecipe(event)">
+        <label for="recipe-title">Title:</label>
+        <input type="text" id="recipe-title" name="recipe-title" required>
+
+        <label for="recipe-description">Description:</label>
+        <textarea id="recipe-description" name="recipe-description" required></textarea>
+
+        <label for="recipe-ingredients">Ingredients:</label>
+        <textarea id="recipe-ingredients" name="recipe-ingredients" required></textarea>
+
+        <label for="recipe-instructions">Instructions:</label>
+        <textarea id="recipe-instructions" name="recipe-instructions" required></textarea>
+
+        <label for="import-image">Import Image:</label>
+        <input type="file" id="image-input" accept="image/jpeg, image/png, image/gif">
+        <br>
+        <img id="image-preview" src="#" alt="Image Preview" style="display: none; max-width: 200px;">
+
+        <button type="submit">Create Recipe</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

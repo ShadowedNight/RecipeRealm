@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+<main>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <script src="script.js"></script>
+        <title>RecipeRealm</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <div class="sidenav" id="sidenav">
+                    <a href="home.html">Home</a>
+                    <a href="#">All Recipes</a>
+                    <a href="#">Breakfast</a>
+                    <a href="#">Lunch</a>
+                    <a href="#">Dinner</a>
+                    <a href="#">Desserts</a>
+                    <a href="#">Drinks</a>
+                    <a href="#">Favorites</a>
+                    <a href="Create Recipe/index.html">Create Recipe</a>
+                    <a href="C:\Users\1687158\Desktop\Recipe Website\Home\My Profile\myProfile.html">My Profile</a>
+                    <a href="C:\Users\1687158\Desktop\Recipe Website\Home\signUp\signUp.html">Sign Up</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+                <button class="toggle-btn" id="toggle-btn" onclick="toggleNav()">&#9776;</button>
+            </div>
+           
+
+                <h1>
+                    <center>RecipeRealm</center>
+                </h1>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://twitter.com/ShadowNight41/" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <br>
+                  <br>
+                <h2>
+                    <center>Search For Recipes</center>
+                </h2>
+
+                <div class="container">
+                    <div class="search-bar">
+                      <button id="search-button" class="search-button">Search</button>
+                      <input type="text" id="search-input" class="search-input" placeholder="Search recipes">
+                    </div>
+                  </div>
+                  
+                  
+
+                    <ul id="search-results" class="search-results"></ul>
+                </div>
+
+                  
+
+                <section class="featured-recipes">
+                    <h2>Featured Recipes</h2>
+                    <div class="recipe-cards">
+                    <div class="recipe-card">
+                      <a href="recipe1.html">
+                        <img src="C:\Users\1687158\Desktop\Recipe Website\Pictures\burgers.jpg" alt="Recipe 1">
+                        <h3>Burger and Chili Dog Feast</h3>
+                        <p>The Burger and Chili Dog Feast is an indulgent and mouthwatering meal that brings together the best of two classic American favorites. This satisfying feast features a juicy and perfectly grilled burger, topped with melted cheese, crisp lettuce, and ripe tomatoes, all nestled between a fluffy sesame seed bun. The burger is complemented by a hearty chili dog, with a juicy sausage nestled in a soft bun and generously smothered with savory chili, melted cheese, and diced onions. Each bite is a flavor explosion, combining the juiciness of the burger with the bold and spicy flavors of the chili dog. This feast is served with a side of golden and crispy French fries, adding an irresistible crunch to the meal. Whether enjoyed at a backyard barbecue or a casual gathering, the Burger and Chili Dog Feast is sure to satisfy cravings and leave everyone wanting more.</p>
+                      </a>
+                    </div>
+                  
+                    <div class="recipe-card">
+                      <a href="recipe2.html">
+                        <img src="C:\Users\1687158\Desktop\Recipe Website\Pictures\iceCream.jpg" alt="Recipe 2">
+                        <h3>Tropical Twists</h3>
+                        <p>Indulge in the refreshing and delightful flavors of our fruit-flavored ice cream. Crafted with ripe fruits, each spoonful offers a burst of natural sweetness and tanginess. From juicy strawberries to succulent peaches and zesty citrus fruits, our ice cream brings a tropical paradise to your taste buds. With a velvety-smooth texture and authentic fruit taste, it's a perfect balance of creaminess and fruity goodness. Treat yourself to a refreshing dessert or cool down on a hot day with our irresistible fruit-flavored ice cream. Satisfy your sweet tooth with a guilt-free pleasure that leaves you feeling refreshed and satisfied.</p>
+                      </a>
+                    </div>
+                  
+                    <div class="recipe-card">
+                      <a href="recipe3.html">
+                        <img src="C:\Users\1687158\Desktop\Recipe Website\Pictures\pasta.jpg" alt="Recipe 3">
+                        <h3>Savory Sun-Dried Tomato Linguine</h3>
+                        <p>Indulge in the savory delight of our Sun-Dried Tomato Linguine. This pasta dish is a perfect harmony of flavors, combining al dente linguine noodles with the rich and intense taste of sun-dried tomatoes. Each bite offers a burst of tangy and sweet notes, complemented by a medley of aromatic herbs and spices. The linguine is coated in a luscious sauce that beautifully marries the sun-dried tomatoes with garlic, olive oil, and a hint of red pepper flakes for a subtle kick. This savory creation is finished with a sprinkle of grated Parmesan cheese, adding a touch of creaminess and depth to every forkful. Savor the exquisite taste and indulge in the comforting flavors of our Savory Sun-Dried Tomato Linguine, a pasta dish that will transport your taste buds to culinary bliss.</p>
+                      </a>
+                    </div>
+                    </div>
+                </section>                  
+                </a>
+
+                  
+                <div class="container">
+                    <h2>Recipe Categories</h2>
+                    <div class="recipe-category">
+                        <a href="category-breakfast.html" class="recipe-category-item">
+                            <img src="C:\Users\1687158\Desktop\Recipe Website\Pictures\eggsAndBacon.jpg">
+                            <h3>Breakfast</h3>
+                            <p>Start your day with delicious breakfast recipes.</p>
+                        </a>
+                    
+                        <a href="category-lunch.html" class="recipe-category-item">
+                            <img src="C:\Users\1687158\Desktop\Recipe Website\Pictures\lunch.jpg">
+                            <h3>Lunch</h3>
+                            <p>Explore a variety of lunch options for a satisfying meal.</p>
+                        </a>
+                    
+                        <a href="category-dinner.html" class="recipe-category-item">
+                            <img src="C:\Users\1687158\Desktop\Recipe Website\Pictures\lagana.jpg">
+                            <h3>Dinner</h3>
+                            <p>Discover tasty dinner recipes for a delightful evening.</p>
+                        </a>
+                    
+                        <!-- Add more recipe category items as needed -->
+                    </div>
+                    
+                </div>
+
+
+
+                <section class="testimonials">
+                    <div class="container">
+                      <h2>User Testimonials</h2>
+                      <div class="testimonial">
+                        <img src="C:\Users\1687158\Desktop\Recipe Website\Pictures\pfp.jpg" alt="User 1">
+                        <p>This website just screams eat me! I love the visuals of this. Makes me hungry thinking about it.</p>
+                        <span class="user">- Alex Beam</span>
+                      </div>
+                      <div class="testimonial">
+                        <img src="C:\Users\1687158\Desktop\Recipe Website\Pictures\pfp.jpg" alt="User 2">
+                        <p>Its pretty good!</p>
+                        <span class="user">- Zayan Baig</span>
+                      </div>
+                    </div>
+                  </section>
+                  
+
+
+                  <br>
+                  <br>
+                  <br>
+                  
+                <footer class="footer">
+                    <div class="footer-links">
+                        <a href="/privacy-policy">Privacy Policy</a>
+                        <a href="/terms-of-service">Terms of Service</a>
+                        <a href="/contact">Contact</a>
+                        <a href="/about">About Us</a>
+                    </div>
+                    <div class="footer-contact">
+                        <p>Contact information: alexanderbeam41@gmail.com</p>
+                    </div>
+                    <p>&copy; 2023 RecipeRealm. All rights reserved.</p>
+                </footer>
+            </div>
+    </body>
+</main>
+
+</html>

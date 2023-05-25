@@ -1,0 +1,92 @@
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* CSS for the create recipe form */
+  .create-recipe-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .create-recipe-form label,
+  .create-recipe-form input,
+  .create-recipe-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .create-recipe-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+ /* CSS for the sidenav */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -200px;
+    /* Hide the sidenav by default */
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    transition: 0.5s;
+    /* Add smooth transition effect */
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    font-family: cursive;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* CSS for the toggle button */
+  .toggle-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: 0.5s;
+    /* Add smooth transition effect */
+  }
+  
+  /* CSS for when the sidenav is open */
+  .sidenav-opened {
+    left: 0;
+  }
+  
+  /* CSS for the container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
